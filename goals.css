@@ -1,0 +1,62 @@
+.menu{
+    background-color: lightblue;
+    width: 100%;
+    height:40px;
+    padding-top: 2px;
+    padding-bottom: 20px;
+    margin:0 auto;
+    text-align: center;
+}
+li {
+	display:block;
+	width:100px;
+	float:left;
+    padding-left: 200px;
+    font-size:30px;
+    
+}
+.flex-container {
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+   
+  }
+  
+  .flex-container >div {
+background-color: lightgray;
+    width: 160px;
+    margin: 50px;
+    text-align:center;
+    line-height: 70px;
+    font-size: 33px;
+    border: solid;
+    border-radius: 25px;
+    border-width: 1px;
+    border-color:beige;
+  }
+  
+.goals{
+    border: solid;
+    border-radius: 25px;
+    border-width: 1px;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 60px;
+    padding-left: 20px;
+}
+.a{
+    color:beige;
+    background-color: lightseagreen;
+    border:dotted;
+    border-radius: 25px;
+    border-color:yellow;
+    border-width:5px;
+    font-size: 23px;
+}
+img{
+    width: 130px;
+    height: 130px;
+    padding-top: 3px;
+    border-radius: 30px;
+}
